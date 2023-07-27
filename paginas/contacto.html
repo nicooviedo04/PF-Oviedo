@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/Favicon/zapatillas.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--Boostrap via CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <!-- ccs -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Gravity's Shoes</title>
+</head>
+<body>
+    <!--barra de navegacion-->
+    <header>
+        <a href="#" class="logo">
+            <img class="logo" src="../assets/Fotos de pagina de zapatillas/Texto.png" alt="">
+        </a>
+        <div>
+            <nav class="nav">
+                <input type="checkbox" class="checkbox">
+                    <i class="icon fi fi-br-menu-burger"></i>
+                    <i class="icon fi fi-br-cross"></i>
+                <ul class="navlist">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../paginas/destacados.html">Destacados</a></li>
+                    <li><a href="../paginas/hombre.html">Hombres</a></li>
+                    <li><a href="../paginas/mujer.html">Mujer</a></li>
+                    <li><a href="../paginas/contacto.html">Contacto</a></li>
+                    <li><a href="../paginas/nosotros.html">Sobre Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <h1>Nuestro contacto</h1>
+    <div>Nuestro telefono: ********</div>
+    <div>Email: ********</div>
+    <div>Dirección: ********</div>
+    <img src="" alt="">
+    
+    <main>
+        <h2>Dejanos tu consulta</h2>
+        <!--formulario de contacto-->
+        <form action="prosesar.php" method="post">
+        <!--input nombre-->
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="Nombre" id="" required>
+        </div>
+        <!--input email-->
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="" required>
+        </div>
+        <!--input telefono-->
+        <div>
+            <label for="Numero de telefono">Telefoto:</label>
+            <input type="number" name="Numero de telefono" id="" required>
+        </div>
+        <!--input consulta-->
+        <div>
+            <label for="consulta">Consulta</label><br>
+            <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+        <div>
+            <!--boton de enviar datos-->
+            <button type="submit">Enviar</button>
+            <!--boton de borrar-->
+            <button type="reset">Borrar datos</button>
+        </div>
+    </form>
+</main>
+
+
+
+
+
+
+
+
+        <!--Footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-row">
+
+                    <div class="footer-links">
+                        <h4>Acerca de Gravity's Shoes</h4>
+                        <ul>
+                            <li><a href="#">Sobre Nosotros</a></li>
+                            <li><a href="#">Nuestros servicios</a></li>
+                            <li><a href="#">Politica de privacidad</a></li>
+                            <li><a href="#">Devoluciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Ayuda</h4>
+                        <ul>
+                            <li><a href="#">Preguntas Frecuentes</a></li>
+                            <li><a href="#">Opciones de pago</a></li>
+                            <li><a href="#">Envios</a></li>
+                            <li><a href="#">Devoluciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Siguenos</h4>
+                        <div class="social-link">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </footer>
+
+</body>
+</html>
