@@ -8,7 +8,6 @@
 
 body{
     font-family: sans-serif;
-    text-transform: capitalize;
 }
 header{
     display: flex;
@@ -87,8 +86,10 @@ header{
 .titulo{
     margin-top: 2rem;
     background-color: #aaaaaa63;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
 }
+
 
 .titulo{
     text-align: center;
@@ -191,8 +192,13 @@ main{
 .texto1{
     padding-top: 30px;
     padding-bottom: 10px;
-    text-align: center;   
+    text-align: center;
 }
+
+.subtitulo1{
+    text-transform: capitalize;
+}
+
 .texto1 h1{
     font-weight: 900;
     border-bottom: 2px solid rgb(0, 0, 0);
@@ -203,6 +209,14 @@ main{
     padding-top: 20px;
     font-weight: 550;
 
+}
+
+
+.texto2{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 /* footer*/
