@@ -30,12 +30,8 @@ body{
     width: 180px;
     max-width: 50rem;
     padding: 10px;
-<<<<<<< HEAD
     padding-right: 35px;
     padding-left: 14px;
-=======
-    padding-left: 1rem;
->>>>>>> e8157411c21f1259173f8b3dbf7571c779faa244
     color: black;
     
 
@@ -143,7 +139,7 @@ main{
     }
 
 .imagen_producto{
-
+    padding-top: 25px;
     justify-content: center;
     align-items: center;
     min-width: none;
@@ -234,17 +230,13 @@ main{
     padding-bottom: 15px;
     padding-top: 30px;
     text-align: center;
-<<<<<<< HEAD
+
     font-family: 'Rubik', sans-serif; 
     background-color: #6e6a6a50;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.699);
-=======
     text-transform: capitalize;
     font-family: 'Rubik', sans-serif;
     font-weight: 1000;
-    
-    
->>>>>>> e8157411c21f1259173f8b3dbf7571c779faa244
 }
 
 .texto2 p{
