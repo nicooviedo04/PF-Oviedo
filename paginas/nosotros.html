@@ -15,7 +15,7 @@
 <body>
     <!--barra de navegacion-->
     <header>
-        <a href="#" class="logo">
+        <!-- <a href="#" class="logo">
             <img class="logo" src="../assets/Fotos de pagina de zapatillas/Texto.png" alt="">
         </a>
         <div>
@@ -32,9 +32,115 @@
                     <li><a href="../paginas/nosotros.html">Sobre Nosotros</a></li>
                 </ul>
             </nav>
-        </div>
+        </div> -->
+        <!-- Barra de navegacion con Boostrap 5 -->
+        <nav class="navbar navbar-expand-lg">
+            <!-- navbar-light bg-light -->
+            <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Gravity's Shoes</a> -->
+            <a href="#" class="logo">
+                <img class="logo" src="../assets/Fotos de pagina de zapatillas/Texto.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../paginas/nosotros.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../paginas/destacados.html">Destacados</a></li>
+                    <li><a class="dropdown-item" href="../paginas/hombre.html">Hombres</a></li>
+                    <li><a class="dropdown-item" href="../paginas/mujer.html">Mujeres</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../paginas/contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+                </ul>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button type="button" class="btn btn-outline-secondary">Buscar</button>
+                <!-- <button class="btn btn-outline-success" type="submit">Buscar</button> -->
+                </form>
+            </div>
+            </div>
+        </nav>
     </header>
+    <section>
+        <div class="">
+            <section > 
+                <h1 class="subtitulo1">¿Quienes somos?</h1>
+            </section>
+            <div>
+                <img src="../assets/fotos de pagina de zapatillas/sobre-nosotros-work.jpg" class="img-fluid" alt="Trabajando">
+                <p>Bienvenido a Gravity's Shoes donde el estilo y la comodidad se unen para ofrecerte una <br>
+                    experiencia única en calzado. Somos apasionados de las zapatillas y creemos que cada par cuenta una <br> 
+                    Nuestra misión es brindarte una selección cuidadosamente curada de las zapatillas más modernas y <br>
+                    de alta calidad para que puedas expresar tu estilo personal mientras caminas con confianza. <br>
+                </p>
+            </div>
 
+            <div>
+                <p>
+                    En nuestra tienda, nos enorgullece ofrecerte una amplia gama de marcas reconocidas y <br>
+                    diseños exclusivos que se adaptan a tus necesidades y preferencias. Trabajamos <br>
+                    directamente con los fabricantes para asegurarnos de que cada par de zapatillas que <br>
+                    encuentres aquí cumpla con los más altos estándares de calidad y durabilidad.  <br>
+                </p>
+                <div class="producto">
+                    <img class="imagen_producto" src="../assets/fotos de pagina de zapatillas/reebok-logo.png" alt="producto">
+                </div>
+                <div class="producto">
+                    <img class="imagen_producto" src="../assets/fotos de pagina de zapatillas/topper-logo.png" alt="producto">
+                </div>
+                <div class="producto">
+                    <img class="imagen_producto" src="../assets/fotos de pagina de zapatillas/nike-logo.png" alt="producto">
+                </div>
+                <div class="producto">
+                    <img class="imagen_producto" src="../assets/fotos de pagina de zapatillas/adidas-logo.png" alt="producto">
+                </div>
+            </div>
+            
+
+
+
+
+            <div>
+                <p>
+                    Valoramos a nuestros clientes y nos esforzamos por brindarte un servicio excepcional. <br>
+                    Nuestro equipo está formado por expertos apasionados por la moda y el calzado, listos para <br>
+                    ayudarte a encontrar el par perfecto que se ajuste a tu estilo de vida y actividades diarias. <br>
+                    Ya sea que estés buscando zapatillas para correr, entrenar o simplemente para complementar <br>
+                    tu estilo casual, estamos aquí para asesorarte y guiarte en tu elección. <br>
+
+                    <img src="../assets/fotos de pagina de zapatillas/sobre-nosotros-pers.jpg" alt="">
+                </p>
+            </div>
+            <div>
+                <p>
+                    Agradecemos tu confianza al elegirnos como tu destino para encontrar las mejores <br>
+                    zapatillas. Esperamos que disfrutes explorando nuestra colección y encuentres el par <br>
+                    perfecto que eleve tu estilo y te brinde la comodidad que te mereces. Si tienes alguna pregunta <br>
+                    o necesitas ayuda, no dudes en ponerte en contacto con nuestro equipo de atención al cliente. <br>
+                    ¡Gracias por visitarnos y esperamos verte pronto caminando con estilo!</p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    
 
 
 
@@ -79,6 +185,7 @@
 
 
         </footer>
-
+    <!--Boostrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

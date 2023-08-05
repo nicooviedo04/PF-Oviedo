@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/Favicon/zapatillas.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!--Boostrap via CDN-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -16,7 +19,7 @@
 <body>
     <!--barra de navegacion-->
     <header>
-        <a href="#" class="logo">
+        <!-- <a href="#" class="logo">
             <img class="logo" src="../assets/Fotos de pagina de zapatillas/Texto.png" alt="">
         </a>
         <div>
@@ -33,18 +36,118 @@
                     <li><a href="../paginas/nosotros.html">Sobre Nosotros</a></li>
                 </ul>
             </nav>
-        </div>
-    </header>   
+        </div> -->
+        <!-- Barra de navegacion con Boostrap 5 -->
+        <nav class="navbar navbar-expand-lg">
+            <!-- navbar-light bg-light -->
+            <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Gravity's Shoes</a> -->
+            <a href="#" class="logo">
+                <img class="logo" src="../assets/Fotos de pagina de zapatillas/Texto.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../paginas/nosotros.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../paginas/destacados.html">Destacados</a></li>
+                    <li><a class="dropdown-item" href="../paginas/hombre.html">Hombres</a></li>
+                    <li><a class="dropdown-item" href="../paginas/mujer.html">Mujeres</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../paginas/contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+                </ul>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button type="button" class="btn btn-outline-secondary">Buscar</button>
+                <!-- <button class="btn btn-outline-success" type="submit">Buscar</button> -->
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
 
-    <div class="titulo">
-        <h5 class="subtitulo">3 cuotas sin interes <br> abonando con mastercard </h5> 
+<body>
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    <div class="texto2">
-        <h1>Zapatillas de moda y calidad para todos los estilos ¡encuentra tu par perfecto ahora!</h1>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+<<<<<<< HEAD
+            <img src="../assets/cp/airmax.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark">
+                <h5>Air Max Pulse</h5>
+                <p>Encontra lo nuevo de Nike en nuestra tienda</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../assets/cp/precios-justos.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark">
+                <!-- <h5>Dia de la Niñez</h5>
+                <p>Llevale el par perfecto como regalo</p> -->
+=======
+            <img src="../assets/cp/precios-justos.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p> -->
+>>>>>>> e8157411c21f1259173f8b3dbf7571c779faa244
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../assets/cp/dia-del-niño.png" class="d-block w-100" alt="...">
+<<<<<<< HEAD
+            <div class="carousel-caption d-none d-md-block text-dark" >
+                <h5>DIA DE LA NIÑEZ</h5>
+                <p>Levale el par perfecto como regalo</p>
+=======
+            <div class="carousel-caption d-none d-md-block text-dark">
+                <h5>Dia de la Niñez</h5>
+                <p>Llevale el par perfecto como regalo</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../assets/cp/airmax.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark" >
+                <h5>Air Max Pulse</h5>
+                <p>Encontra lo nuevo de Nike en nuestra tienda</p>
+>>>>>>> e8157411c21f1259173f8b3dbf7571c779faa244
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    
-    
 
+
+
+    <div class="texto2">
+        <h1>Lo mas vendido</h1>
+    </div>
 
     <main>
         
@@ -197,6 +300,7 @@
 
         </footer>
 
-    
+    <!--Boostrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
