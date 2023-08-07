@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    
 }
 
 body{
@@ -131,28 +130,15 @@ body{
 }
 
 /* productos-main*/
-main{
+.ind-main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding-top: 20px;
     
     }
 
-.imagen_producto{
-    padding-top: 25px;
-    justify-content: center;
-    align-items: center;
-    min-width: none;
-    max-width: 100%;
-    padding: 15px 30px;
-    line-height: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.imagen_producto:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
-}
+
 
 .info-producto{
     text-align: center;
@@ -188,7 +174,6 @@ main{
 
 }
 
-
 /*Imagenes varias*/
 .imagen_moti{
     justify-content: center;
@@ -201,6 +186,65 @@ main{
     flex-direction: column;
     gap: 10px;
 }
+
+.imagen_producto{
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+    min-width: none;
+    max-width: 100%;
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.imagen_producto:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+}
+
+.sobrenosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+}
+.sobre-nosotros-img{
+    width: 50%;
+    padding-top: 15px;
+
+}
+
+.marcas-ce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+}
+.marcas{
+    display: flex;
+    width: 900px;
+    height: auto;
+    align-items: center;
+}
+
+.marcas img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+
+}
+
+.marcas img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
 /* parafo */ 
 .texto1{
     padding-top: 30px;
@@ -230,17 +274,54 @@ main{
     padding-bottom: 15px;
     padding-top: 30px;
     text-align: center;
-
-    font-family: 'Rubik', sans-serif; 
     background-color: #6e6a6a50;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.699);
     text-transform: capitalize;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
 }
 
 .texto2 p{
     font-weight: 700;
+}
+
+.sobrenosotros-titulo{
+    padding-top: 25px;
+    
+    
+}
+
+.sobre-nosotros-text{
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-right: 20px;
+    text-align: left;
+    font-family: 'Rubik', sans-serif; 
+    /* background-color: #6e6a6a3d; */
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.271); */
+    font-weight: 600;
+}
+
+.marcas-titulo{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    background-color: #6e6a6a50;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.373);
+    padding: 20px 10px;
+    
+}
+
+.sobre-nosotros-titulo{
+    padding-bottom: 15px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #6e6a6a50;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.699);
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
 }
 
 
@@ -317,8 +398,13 @@ main{
         .navlist{
             padding: 10px 0px;
         }
-
-}
+        .sobre-nosotros-text{
+            font-size: 10px;
+        }
+        .sobrenosotros{
+            display: block;
+        }
+       
 
 @media (max-width:900px) {
     .info-producto h2{
@@ -400,6 +486,11 @@ main{
 
     }
 
+    .marcas{
+        width: 400px;
+        height: 230px;
+    }
+
 }
 
 @media (max-width:400px){
@@ -417,7 +508,26 @@ main{
         width: 180px;
         
     }
-    
+    .marcas{
+        width: 300px;
+        height: 130;
+    }
 }
 
-
+@media (max-width:200px){
+    .navlist{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        
+        }
+    .logo{
+        width: 180px;
+        
+    }
+    }
+}
