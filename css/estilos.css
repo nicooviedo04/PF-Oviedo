@@ -212,7 +212,7 @@ body{
 .sobre-nosotros-img{
     width: 50%;
     padding-top: 15px;
-
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.577);
 }
 
 .marcas-ce{
@@ -223,9 +223,10 @@ body{
 }
 .marcas{
     display: flex;
-    width: 900px;
+    width: 550px;
     height: auto;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .marcas img{
@@ -238,10 +239,10 @@ body{
 }
 
 .marcas img:hover{
-    cursor: crosshair;
-    width: 300px;
+    width: 50px;
     opacity: 1;
     filter: contrast(120%);
+    
 }
 
 
@@ -404,7 +405,7 @@ body{
         .sobrenosotros{
             display: block;
         }
-       
+}   
 
 @media (max-width:900px) {
     .info-producto h2{
@@ -528,6 +529,5 @@ body{
     .logo{
         width: 180px;
         
-    }
     }
 }
