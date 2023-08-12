@@ -446,7 +446,7 @@ body {
   .info-producto h2 {
     font-size: 15px;
   }
-  main {
+  .ind-main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -465,7 +465,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  main {
+  .ind-main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -483,7 +483,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  main {
+  .ind-main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -494,5 +494,46 @@ body {
 }
 /*Sass*/
 /*Variables*/
+.video_inicio {
+  display: grid;
+  place-items: center;
+  padding-top: 40px;
+}
+
+.video {
+  width: 85%;
+  height: auto;
+}
+
+.logos_zapas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.logotipo {
+  width: 40%;
+}
+
+/*animaciones*/
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+img {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 50%;
+  animnation-fill-mode: both;
+}
 
 /*# sourceMappingURL=estilos.css.map */
