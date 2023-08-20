@@ -8,83 +8,66 @@
     <!--Boostrap via CDN-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
-    
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Gravity's Shoes</title>
 
 </head>
 <body>
-    <!--barra de navegacion-->
     <header>
-        <!-- <a href="#" class="logo">
-            <img class="logo" src="../assets/Fotos de pagina de zapatillas/Texto.png" alt="">
-        </a>
-        <div>
-            <nav class="nav">
-                <input type="checkbox" class="checkbox">
-                    <i class="icon fi fi-br-menu-burger"></i>
-                    <i class="icon fi fi-br-cross"></i>
-                <ul class="navlist">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../paginas/destacados.html">Destacados</a></li>
-                    <li><a href="../paginas/hombre.html">Hombres</a></li>
-                    <li><a href="../paginas/mujer.html">Mujer</a></li>
-                    <li><a href="../paginas/contacto.html">Contacto</a></li>
-                    <li><a href="../paginas/nosotros.html">Sobre Nosotros</a></li>
-                </ul>
-            </nav>
-        </div> -->
         <!-- Barra de navegacion con Boostrap 5 -->
-        <nav class="navbar navbar-expand-lg">
-            <!-- navbar-light bg-light -->
-            <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#">Gravity's Shoes</a> -->
-            <a href="#" class="logo">
-                <img class="logo" src="../assets/Fotos de pagina de zapatillas/Texto.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../paginas/nosotros.html">Sobre nosotros</a>
-                </li>
-                <li class="nav-item" >
-                    <a class="nav-link" href="../paginas/destacados.html">Destacados</a>
-                </li>
-                <li class="nav-item" >
-                    <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Productos
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <!-- <li><a class="dropdown-item" href="../paginas/destacados.html">Destacados</a></li> -->
-                    <li><a class="dropdown-item" href="../paginas/hombre.html">Hombres</a></li>
-                    <li><a class="dropdown-item" href="../paginas/mujer.html">Mujeres</a></li>
-                    <!-- <li><hr class="dropdown-divider"></li> -->
-                    <!-- <li><a class="dropdown-item" href="../paginas/contacto.html">Contacto</a></li> -->
+        <div class="nb">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                <a href="#" class="logo">
+                    <img class="logo" src="../assets/Fotos de pagina de zapatillas/Texto.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="../paginas/destacados.html">Destacados</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../paginas/hombre.html">Hombres</a></li>
+                        <li><a class="dropdown-item" href="../paginas/mujer.html">Mujeres</a></li>
+                        </ul>
+                    </li>
                     </ul>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li> -->
-                </ul>
-                <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button type="button" class="btn btn-outline-secondary">Buscar</button>
-                <!-- <button class="btn btn-outline-success" type="submit">Buscar</button> -->
-                </form>
-            </div>
-            </div>
-        </nav>
+                    <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-outline-secondary">Buscar</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+        </div>
     </header>
-
+    
+    <div class="texto2">
+        <section > 
+            <h1 class="subtitulo1">CALZADO MASCULINO</h1>
+        </section>
+        <p>Nuestras victorias son nuestras recompensas. Las zapatillas para hombre ayudan a que demos nuestra mejor versión.
+            Ese kilómetro extra.Una repetición más. No importa si toca entrenar piernas, jugar fútbol, salir a correr o descansar todo el día. 
+            Tenemos lo que buscás. Zapatillas de running para correr o para caminar. Un par de zapatillas blancas que puedes combinar con todo. 
+            Tenemos todo lo que necesitás en zapatillas para hombre.</p>
+    </div>
     <!-- video de fondo -->
     <div class="video_inicio">
 
@@ -102,49 +85,49 @@
         <!-- adidas -->
         <!-- productos adidas -->
         <div class="producto">
-            <img class="imagen_producto" src="../assets/Zapatillas/Adidas Mujer/ZAPATILLAS ADIDAS GRAND COURT BASE LIFESTYLE COURT CASUAL.png" alt="producto">
+            <img class="imagen_producto" src="../assets/Zapatillas/Adidas Hombre/ZAPATILLAS FORUM EXHIBIT LOW.png" alt="producto">
             <div class="info-producto">
-                <h2>Adidas Grand Court Base </h2>
+                <h2>Adidas Forum</h2>
                 <p class="precio">$53000</p>
                 <button class="boton-ver">Ver</button>
             </div>
         </div>
         <div class="producto">
-            <img class="imagen_producto" src="../assets/Zapatillas/Nike Mujer/Nike Air Force 1 Shadow.png" alt="producto">
+            <img class="imagen_producto" src="../assets/Zapatillas/Adidas Hombre/ZAPATILLAS GALAXY 6.png" alt="producto">
             <div class="info-producto">
-                <h2>Nike Air Force 1 Shadow</h2>
+                <h2>Adidas Galaxy Six</h2>
                 <p class="precio">$73000</p>
                 <button class="boton-ver">Ver</button>
             </div>
         </div>
         <div class="producto">
-            <img class="imagen_producto" src="../assets/Zapatillas/Puma Mujer/Velophasis Phased.png" alt="producto">
+            <img class="imagen_producto" src="../assets/Zapatillas/Adidas Hombre/ZAPATILLAS LITE RACER 2.0.png" alt="producto">
             <div class="info-producto">
-                <h2>Puma Velophasis Phased</h2>
+                <h2>Adidas Lite Racer</h2>
                 <p class="precio">$43000</p>
                 <button class="boton-ver">Ver</button>
             </div>
         </div>
         <div class="producto">
-            <img class="imagen_producto" src="../assets/Zapatillas/Adidas Hombre/ZAPATILLAS FORUM EXHIBIT LOW.png" alt="producto">
+            <img class="imagen_producto" src="../assets/Zapatillas/Adidas Hombre/ZAPATILLAS RUNFALCON 3.png" alt="producto">
             <div class="info-producto">
-                <h2>Adidas Forum Exhibit low</h2>
+                <h2>Adidas Falcon</h2>
                 <p class="precio">$83000</p>
                 <button class="boton-ver">Ver</button>
             </div>
         </div>
         <div class="producto">
-            <img class="imagen_producto" src="../assets/Zapatillas/Nike Hombre/Air Jordan 1 Retro High OG Craft.png" alt="producto">
+            <img class="imagen_producto" src="../assets/Zapatillas/Adidas Hombre/ZAPATILLAS TRAINER V.png" alt="producto">
             <div class="info-producto">
-                <h2>Nike Air Jordan 1 Retro </h2> 
+                <h2>Adidas Trainer V</h2> 
                 <p class="precio">$67000</p>
                 <button class="boton-ver">Ver</button>
             </div>
         </div>
         <div class="producto">
-            <img class="imagen_producto" src="../assets/Zapatillas/Puma Hombre/RS-X Reinvention.png" alt="producto">
+            <img class="imagen_producto" src="../assets/Zapatillas/Adidas Hombre/ZAPATILLAS ZNTASY LIGHTMOTION+.png" alt="producto">
             <div class="info-producto">
-                <h2>Pumas RS-X Reinvention</h2>
+                <h2>Adidas Zntasy</h2>
                 <p class="precio">$33000</p>
                 <button class="boton-ver">Ver</button>
             </div>
@@ -156,49 +139,49 @@
             </div>
         <section class="ind-main">
             <div class="producto">
-                <img class="imagen_producto" src="../assets/Zapatillas/Adidas Mujer/ZAPATILLAS ADIDAS GRAND COURT BASE LIFESTYLE COURT CASUAL.png" alt="producto">
+                <img class="imagen_producto" src="../assets/Zapatillas/Nike Hombre/Air Jordan 1 Low SE Craft.png" alt="producto">
                 <div class="info-producto">
-                    <h2>Adidas Grand Court Base </h2>
+                    <h2>Nike Air Jordan I </h2>
                     <p class="precio">$53000</p>
-                    <button class="boton-ver">Ver</button>
-                </div>
-            </div>
-            <div class="producto">
-                <img class="imagen_producto" src="../assets/Zapatillas/Nike Mujer/Nike Air Force 1 Shadow.png" alt="producto">
-                <div class="info-producto">
-                    <h2>Nike Air Force 1 Shadow</h2>
-                    <p class="precio">$73000</p>
-                    <button class="boton-ver">Ver</button>
-                </div>
-            </div>
-            <div class="producto">
-                <img class="imagen_producto" src="../assets/Zapatillas/Puma Mujer/Velophasis Phased.png" alt="producto">
-                <div class="info-producto">
-                    <h2>Puma Velophasis Phased</h2>
-                    <p class="precio">$43000</p>
-                    <button class="boton-ver">Ver</button>
-                </div>
-            </div>
-            <div class="producto">
-                <img class="imagen_producto" src="../assets/Zapatillas/Adidas Hombre/ZAPATILLAS FORUM EXHIBIT LOW.png" alt="producto">
-                <div class="info-producto">
-                    <h2>Adidas Forum Exhibit low</h2>
-                    <p class="precio">$83000</p>
                     <button class="boton-ver">Ver</button>
                 </div>
             </div>
             <div class="producto">
                 <img class="imagen_producto" src="../assets/Zapatillas/Nike Hombre/Air Jordan 1 Retro High OG Craft.png" alt="producto">
                 <div class="info-producto">
-                    <h2>Nike Air Jordan 1 Retro</h2> 
+                    <h2>Nike Jordan Retro </h2>
+                    <p class="precio">$73000</p>
+                    <button class="boton-ver">Ver</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img class="imagen_producto" src="../assets/Zapatillas/Nike Hombre/Air Jordan 5 Retro.png" alt="producto">
+                <div class="info-producto">
+                    <h2>Nike Jordan V</h2>
+                    <p class="precio">$43000</p>
+                    <button class="boton-ver">Ver</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img class="imagen_producto" src="../assets/Zapatillas/Nike Hombre/Air Jordan XXXVII.png" alt="producto">
+                <div class="info-producto">
+                    <h2>Jordan XXXVII</h2>
+                    <p class="precio">$83000</p>
+                    <button class="boton-ver">Ver</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img class="imagen_producto" src="../assets/Zapatillas/Nike Hombre/Jordan Why Not .6.png" alt="producto">
+                <div class="info-producto">
+                    <h2>Jordan Why Not</h2> 
                     <p class="precio">$67000</p>
                     <button class="boton-ver">Ver</button>
                 </div>
             </div>
             <div class="producto">
-                <img class="imagen_producto" src="../assets/Zapatillas/Puma Hombre/RS-X Reinvention.png" alt="producto">
+                <img class="imagen_producto" src="../assets/Zapatillas/Nike Hombre/Nike Dunk Low.png" alt="producto">
                 <div class="info-producto">
-                    <h2>Pumas RS-X Reinvention</h2>
+                    <h2>Nike Dunk Low</h2>
                     <p class="precio">$33000</p>
                     <button class="boton-ver">Ver</button>
                 </div>
@@ -210,49 +193,49 @@
             <!-- productos puma -->
             <section class="ind-main">
                 <div class="producto">
-                    <img class="imagen_producto" src="../assets/Zapatillas/Adidas Mujer/ZAPATILLAS ADIDAS GRAND COURT BASE LIFESTYLE COURT CASUAL.png" alt="producto">
+                    <img class="imagen_producto" src="../assets/Zapatillas/Puma Hombre/BMW M Motorsport RS-X.png" alt="producto">
                     <div class="info-producto">
-                        <h2>Adidas Grand Court Base </h2>
+                        <h2>BMW M Motorsport</h2>
                         <p class="precio">$53000</p>
                         <button class="boton-ver">Ver</button>
                     </div>
                 </div>
                 <div class="producto">
-                    <img class="imagen_producto" src="../assets/Zapatillas/Nike Mujer/Nike Air Force 1 Shadow.png" alt="producto">
+                    <img class="imagen_producto" src="../assets/Zapatillas/Puma Hombre/Fuse 2.0 Tiger Camo.png" alt="producto">
                     <div class="info-producto">
-                        <h2>Nike Air Force 1 Shadow</h2>
+                        <h2>Puma Fuse 2.0 Tiger</h2>
                         <p class="precio">$73000</p>
                         <button class="boton-ver">Ver</button>
                     </div>
                 </div>
                 <div class="producto">
-                    <img class="imagen_producto" src="../assets/Zapatillas/Puma Mujer/Velophasis Phased.png" alt="producto">
+                    <img class="imagen_producto" src="../assets/Zapatillas/Puma Hombre/Magnify NITRO.png" alt="producto">
                     <div class="info-producto">
-                        <h2>Puma Velophasis Phased</h2>
+                        <h2>Puma Magnify NITRO</h2>
                         <p class="precio">$43000</p>
-                        <button class="boton-ver">Ver</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="imagen_producto" src="../assets/Zapatillas/Adidas Hombre/ZAPATILLAS FORUM EXHIBIT LOW.png" alt="producto">
-                    <div class="info-producto">
-                        <h2>Adidas Forum Exhibit low</h2>
-                        <p class="precio">$83000</p>
-                        <button class="boton-ver">Ver</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="imagen_producto" src="../assets/Zapatillas/Nike Hombre/Air Jordan 1 Retro High OG Craft.png" alt="producto">
-                    <div class="info-producto">
-                        <h2>Nike Air Jordan 1 Retro</h2> 
-                        <p class="precio">$67000</p>
                         <button class="boton-ver">Ver</button>
                     </div>
                 </div>
                 <div class="producto">
                     <img class="imagen_producto" src="../assets/Zapatillas/Puma Hombre/RS-X Reinvention.png" alt="producto">
                     <div class="info-producto">
-                        <h2>Pumas RS-X Reinvention</h2>
+                        <h2>Puma RS-X Reinvention</h2>
+                        <p class="precio">$83000</p>
+                        <button class="boton-ver">Ver</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="imagen_producto" src="../assets/Zapatillas/Puma Hombre/RS-X Triple ADP.png" alt="producto">
+                    <div class="info-producto">
+                        <h2>Puma RS-X Triple ADP</h2> 
+                        <p class="precio">$67000</p>
+                        <button class="boton-ver">Ver</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="imagen_producto" src="../assets/Zapatillas/Puma Hombre/TRC Blaze Triple.png" alt="producto">
+                    <div class="info-producto">
+                        <h2>Pumas TRC Blaze Triple</h2>
                         <p class="precio">$33000</p>
                         <button class="boton-ver">Ver</button>
                     </div>
