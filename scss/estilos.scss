@@ -1,15 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-}
-
-body{
-    font-family: sans-serif;
-    display: block;
-    min-height: 100vh;    
-}
+@import "_reset";
+@import "_body";
+@import "_variables";
+@import "_mixin";
+@import "_mediaquaries";
 /*Barra de navegación*/
 
 .navbar {
@@ -68,46 +61,23 @@ background-color: #6e6a6ad3;
 
 /*productos-main*/
 .ind-main{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding-top: 20px;
+    @include productos;
     
     }
 
-
-
 .info-producto{
-    text-align: center;
-    padding: 15px 30px;
-    line-height: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    min-width: none;
-    max-width: 100%;
+    @include info-producto;
     
 }
 .info-producto h2{
-    font-size: 30px;
+    @include productoh2;
 }
 
 .precio{
-    font-size: 18px;
-    font-weight: 900;
-    min-width: none;
-    max-width: 100%;
+    @include precio;
 }
 .info-producto button{
-    border: none;
-    background: none;
-    background-color: #000000;
-    color: white;
-    padding: 15px 10px;
-    cursor: pointer;
-    min-width: none;
-    max-width: 100%;
-
+    @include button;
 
 }
 
@@ -176,10 +146,8 @@ background-color: #6e6a6ad3;
 }
 
 .marcas img:hover{
-    width: 50px;
     opacity: 1;
-    filter: contrast(120%);
-    
+    filter: contrast(120%);  
 }
 
 
@@ -271,7 +239,7 @@ background-color: #6e6a6ad3;
 }
 .footer{
     background-color: #6e6a6ad3;
-    padding: 80px 0;
+    padding: 60px 0;
     
 }
 .footer-row{
@@ -469,21 +437,6 @@ background-color: #6e6a6ad3;
     }
 }
 
-/*Sass*/
-/*Variables*/
-$pocicion:center;
-$espacios: 20px;
-$color--primario: #6e6a6ad3;
-$color--secundario: black;
-$color--fondo: #fff;
-$columnas:grid;
-$tamaño:40%;
-$form--esp:4.5em 3em;
-$radio: 10px;
-$sombra: 0 5px 25px -5px rgb(0 0 0 / 30%);
-
-
-
 .video_inicio{
     display: grid;
     place-items: $pocicion;
@@ -594,7 +547,7 @@ $sombra: 0 5px 25px -5px rgb(0 0 0 / 30%);
     }
 }
 
-img {
+.producto{
     view-timeline-name: --image;
     view-timeline-axis: block;
 
