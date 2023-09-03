@@ -2,7 +2,6 @@
 @import "_body";
 @import "_variables";
 @import "_mixin";
-@import "_mediaquaries";
 /*Barra de navegación*/
 
 .navbar {
@@ -226,7 +225,20 @@ background-color: #6e6a6ad3;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 1000;
 }
+// contactanos
 
+.contacto-img{
+    width: 250px;
+    height: 550px;
+    padding-top: 15px;
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.434);
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+}
 
 /* footer*/
 .fr{
@@ -461,7 +473,7 @@ background-color: #6e6a6ad3;
 
 .form{
     background:$color--fondo;
-    margin: auto;
+    // margin: auto;
     width: 90%;
     max-width: 400px;
     padding: $form--esp;
