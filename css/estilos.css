@@ -135,7 +135,6 @@ body {
   flex-direction: column;
   gap: 10px;
 }
-
 .imagen_producto:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
@@ -175,7 +174,6 @@ body {
   opacity: 0.8;
   transition: 0.5 ease;
 }
-
 .marcas img:hover {
   opacity: 1;
   filter: contrast(120%);
@@ -309,7 +307,6 @@ body {
   margin-bottom: 15px;
   transition: all 0.3s ease;
 }
-
 .footer-links ul li a:hover {
   color: white;
   padding-left: 6px;
@@ -327,7 +324,6 @@ body {
   color: white;
   transition: all 0.5s ease;
 }
-
 .social-link a:hover {
   background-color: rgba(14, 14, 14, 0.8274509804);
 }

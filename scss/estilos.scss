@@ -104,11 +104,11 @@ background-color: #6e6a6ad3;
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-.imagen_producto:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
-}
 
+    &:hover{
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+    }
+}
 .sobrenosotros{
     display: flex;
     justify-content: center;
@@ -142,13 +142,12 @@ background-color: #6e6a6ad3;
     opacity: .8;
     transition: .5 ease;
 
-}
+    &:hover{
+        opacity: 1;
+        filter: contrast(120%); 
+    }
 
-.marcas img:hover{
-    opacity: 1;
-    filter: contrast(120%);  
 }
-
 
 /* parafo */ 
 .texto1{
@@ -279,11 +278,11 @@ background-color: #6e6a6ad3;
     color: #dadada;
     margin-bottom: 15px;
     transition: all .3s ease;
-}
-.footer-links ul li a:hover{
-    color: white;
+    
+    &:hover{
+        color: white;
     padding-left: 6px;
-
+    }
 }
 
 .social-link a{
@@ -298,11 +297,12 @@ background-color: #6e6a6ad3;
     border-radius: 50%;
     color: white;
     transition: all .5s ease;
+
+    &:hover{
+        background-color: #0e0e0ed3;
+    }
 }
 
-.social-link a:hover{
-    background-color: #0e0e0ed3;
-}
 
 
 
