@@ -253,8 +253,8 @@ body {
 }
 
 .contacto-img {
-  width: 250px;
-  height: 550px;
+  width: 22rem;
+  height: auto;
   padding-top: 15px;
   box-shadow: 0 25px 20px rgba(0, 0, 0, 0.434);
 }
@@ -393,6 +393,9 @@ body {
   .info-producto h2 {
     font-size: 15px;
   }
+  .contacto-img {
+    display: none;
+  }
 }
 @media (max-width: 600px) {
   .info-producto h2 {
@@ -478,7 +481,7 @@ body {
 }
 
 .form__title {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5em;
   font-weight: 700;
 }

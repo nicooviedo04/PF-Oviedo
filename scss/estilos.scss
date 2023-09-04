@@ -228,8 +228,8 @@ background-color: #6e6a6ad3;
 // contactanos
 
 .contacto-img{
-    width: 250px;
-    height: 550px;
+    width: 22rem;
+    height: auto;
     padding-top: 15px;
     box-shadow: 0 25px 20px rgba(0, 0, 0, 0.434);
 }
@@ -384,6 +384,10 @@ background-color: #6e6a6ad3;
         .info-producto h2{
             font-size: 15px;
             }   
+
+        .contacto-img{
+            display: none;
+        }
 }
 
 
@@ -430,6 +434,7 @@ background-color: #6e6a6ad3;
         width: 300px;
         height: 130;
     }
+
 }
 
 @media (max-width:200px){
@@ -483,7 +488,7 @@ background-color: #6e6a6ad3;
 }
 
 .form__title{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: .5em;
     font-weight: 700;
 }
